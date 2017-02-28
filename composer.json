@@ -1,0 +1,27 @@
+{
+    "name": "superlyons/yii2-advext",
+    "description": "Yii2 Advanced Extensions",
+    "keywords": ["yii2","extension","manage","admin","rbac","nav","mptt"],
+    "license": "GPL",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2-app-advanced":"2.0.8",
+        "mdmsoft/yii2-admin": "~2.0",
+        "superlyons/yii2-id-generator": "dev-master",
+        "superlyons/mptt": "dev-master",
+        "superlyons/admin-template": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "superlyons\\yii2advext\\": ""
+        }
+    },
+
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
